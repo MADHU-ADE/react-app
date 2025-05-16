@@ -17,7 +17,7 @@ export default function App() {
       })
     setTimeout(() =>{
       setAlert(null);
-    },3000);
+    },1000);
   }
 
    const toggleMode =()=>{

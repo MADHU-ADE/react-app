@@ -20,6 +20,7 @@ export default function TextForm(props){
     const handleCopy =()=>{
         let  text = document.getElementById("myBox");
         navigator.clipboard.writeText(text.value);
+        props.showAlert("Copied to  Clipboard","Sucess");
     }
    const handleExtraSpace =()=>{
         let  newText = text.split(/[ ]+/);
